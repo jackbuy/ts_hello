@@ -2,7 +2,7 @@ import express from 'express'
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('hello typescript');
+    res.send('hello typescript e');
 });
 
 app.listen(10000, () => {
